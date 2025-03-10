@@ -64,7 +64,7 @@ const SendBar = (props: SendBarProps) => {
           ref={inputRef!}
           className="input"
           disabled={disabled}
-          placeholder="Shift + Enter for new line"
+          placeholder="Ask your dev question about DORA..."
           autoComplete="off"
           rows={1}
           onKeyDown={onKeydown}
